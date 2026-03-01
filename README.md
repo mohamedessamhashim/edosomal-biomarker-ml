@@ -68,7 +68,6 @@ results/              Model comparison tables (CSV)
 | Endosomal-XGB | Stability-selected subset | Nonlinear interactions |
 
 ## Preliminary Results
-![Stability Selction Figure](figures/fig4_stability_selection.png)
 The pipeline evaluates five models across synthetic and mouse datasets using nested cross-validation. Performance is measured using the Area Under the Receiver Operating Characteristic Curve (AUC).
 
 The extraordinarily high AUC scores (often reaching 1.0) observed in these preliminary results warrant careful interpretation. We provide the following detailed explanation for these findings:
