@@ -176,6 +176,9 @@ def stability_selection(
     if C_range is None:
         C_range = np.logspace(-3, 1, 20)
 
+    X = np.asarray(X)
+    y = np.asarray(y)
+
     rng = np.random.default_rng(seed)
     n_samples, n_features = X.shape
     selection_counts = np.zeros(n_features)
