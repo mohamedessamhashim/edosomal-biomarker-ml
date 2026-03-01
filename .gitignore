@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.eggs/
+
+# Data (large files)
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.csv
+
+# Generated outputs (re-creatable)
+figures/*.png
+figures/*.pdf
+results/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
